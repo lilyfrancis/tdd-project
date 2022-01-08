@@ -1,5 +1,5 @@
 class Solver
-    def factorial(num)
+  def factorial(num)
     if num.zero?
       1
     elsif num.positive?
