@@ -7,6 +7,9 @@ class Solver
       num * factorial(num - 1)
     else
       'Oh, there is an error. Please use a positive number'
-    end    
+    end
   end
-end
+
+  def reverser(str)
+    str.reverse
+  end
